@@ -1,0 +1,39 @@
+.sort-dropdown {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  &__label {
+    color: #fff;
+    font-size: 1.0625rem;
+    font-weight: 600;
+  }
+
+  &__select {
+    min-width: 16rem;
+    max-width: 100%;
+    padding: 0.7rem 1rem;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    background: #fff;
+    color: #111;
+    font-size: 1.0625rem;
+    font-family: inherit;
+    line-height: 1.3;
+    cursor: pointer;
+
+    &:hover:not(:disabled) {
+      background: #f5f5f5;
+    }
+
+    &:focus-visible {
+      outline: 2px solid #f5a623;
+      outline-offset: 2px;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}

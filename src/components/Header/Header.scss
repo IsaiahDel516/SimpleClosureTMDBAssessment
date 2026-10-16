@@ -1,0 +1,17 @@
+.header {
+  &__title {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 2rem;
+    line-height: 1.15;
+    color: #e00;
+
+    @media (min-width: 640px) {
+      font-size: 2.5rem;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 3rem;
+    }
+  }
+}
